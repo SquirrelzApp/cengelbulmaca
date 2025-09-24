@@ -1,0 +1,35 @@
+name: cruci_verba
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+  
+  # UI Components
+  cupertino_icons: ^1.0.8
+  
+  # Data Handling
+  path: ^1.9.0
+  
+  # Utilities
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # İsteğe bağlı:
+  # flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/data.json
+    - assets/data/crossword_db_optimized.json
